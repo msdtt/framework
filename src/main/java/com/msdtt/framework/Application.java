@@ -17,7 +17,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Controller
 @EnableWebMvc
 @SpringBootApplication
-//@MapperScan(basePackages = "com.ads.mapper")
+@MapperScan(basePackages = "com.msdtt.framework.dao")
 public class Application extends SpringBootServletInitializer{
     @Override
     protected SpringApplicationBuilder configure(
